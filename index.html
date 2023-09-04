@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+    <header></header>
+
+    <article>
+        <div>
+            <h2>Developer Registration</h2>
+            <p>Complete with your information</p>
+            <br>
+        </div>
+
+        <form>
+            <fieldset>
+                <div>
+                    <label for="name"><strong>Name</strong></label>
+                    <input type="text" name="name" required>
+                </div>
+    
+                <div>
+                    <label for="lastname"><strong>Lastname</strong></label>
+                    <input type="text" name="lastname" required>
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div>
+                <label><strong>Development Area</strong></label>
+                <label>
+                    <input type="radio" name="development" value="frontend" checked>Front End
+                </label>
+                <label>
+                    <input type="radio" name="development" value="backend">Back End
+                </label>
+                <label>
+                    <input type="radio" name="development" value="fullstack">Fullstack
+                </label>
+            </div>
+
+            <div>
+                <label for="career"><strong>Career</strong></label>
+                <select>
+                    <option selected disabled value="">Select</option>
+                    <option>Junior</option>
+                    <option>Full</option>
+                    <option>Senior</option>
+                </select>
+            </div>
+
+            <fieldset>
+                <div>
+                    <label><strong>Select the technologies you use:</strong></label><br><br>
+                    <input type="checkbox" name="technology1" value="HTML">
+                    <label for="technology1">HTML</label>
+                    <input type="checkbox" name="technology2" value="CSS">
+                    <label for="technology2">CSS</label>
+                    <input type="checkbox" name="technology3" value="Javascript">
+                    <label for="technology3">Javascript</label>
+                    <input type="checkbox" name="technology4" value="C#">
+                    <label for="technology4">C#</label>
+                    <input type="checkbox" name="technology5" value="Java">
+                    <label for="technology5">Java</label>
+                    <input type="checkbox" name="technology6" value="PHP">
+                    <label for="technology6">PHP</label>
+                </div>
+            </fieldset>
+    
+            <div>
+                <br>
+                <label><strong>Talk about your experience:</strong></label>
+                <textarea name="experience"></textarea>
+            </div>
+    
+            <button type="submit">Send</button>
+        </form>
+    </article>
+
+    <aside></aside>
+
+    <footer></footer>
+</body>
+</html>
