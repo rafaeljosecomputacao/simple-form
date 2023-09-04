@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    font-family: Verdana;
+    color: #00588F;
+    margin-left: 7%;
+}
+
+#subtitle{
+    font-family: Verdana;
+    color: #00588F;
+    margin-left: 10%;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: #C2E7FF;
+    font-family: Verdana;
+    font-size: 1em;
+    color: #0072BB;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 3px;
+}
+
+.field{
+    margin-bottom: 1em;
+}
+
+.field label{
+    margin-bottom: 0.2em;
+    color: #0072BB;
+    display: block;
+}
+
+fieldset.group .field{
+    float: left;
+    margin-right: 1em;
+}
+
+.field input[type="text"], .field input[type="email"], .field select, .field textarea{
+    padding: 0.2em;
+    border: 1px solid #0072BB;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.field select option{
+    padding-right: 1em;
+}
+
+.field input:focus, .field select:focus, .field textarea:focus{
+    background: #EBF7FF;
+}
+
+.btn{
+    font-size: 1.2em;
+    background: #0072BB;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn:hover{
+    background: #00588F;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.1);
+    text-shadow: none;
+}
+
+.btn, select{
+    cursor: pointer;
+}
+
+#check{
+    display: inline-block;
+}
